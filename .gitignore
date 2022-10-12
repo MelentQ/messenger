@@ -1,1 +1,7 @@
 .idea/*
+.parcel-cache
+node_modules/*
+dist/*
+build/*
+
+package-lock.json
