@@ -1,9 +1,13 @@
-<form class="form" name="{{name}}" action="#">
+<div class="form">
     <fieldset class="form__inputs">
-        {{{inputs}}}
+        {{#each inputs}}
+            {{{this}}}
+        {{/each}}
     </fieldset>
 
     <div class="form__actions">
-        {{{actions}}}
+        {{#each actions}}
+            {{{this}}}
+        {{/each}}
     </div>
-</form>
+</div>

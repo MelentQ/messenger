@@ -1,4 +1,11 @@
+@import "reset-css";
 @import "variables";
+@import "fonts";
+@import "utils";
+
+* {
+  box-sizing: border-box;
+}
 
 *:focus {
   outline: $primary-700 dotted 0.1rem;
@@ -14,6 +21,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
+  color: $grayscale-900;
   font: 500 1.6rem/1 'Inter', sans-serif;
 }
 

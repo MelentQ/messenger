@@ -8,7 +8,7 @@ import templateFunction from './button.hbs'
  * @returns {String} - Button Element as String
  */
 function button(type, label) {
-    return templateFunction({ type, label })
+  return templateFunction({ type, label })
 }
 
 export { button }

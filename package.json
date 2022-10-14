@@ -24,11 +24,9 @@
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars-precompile": "^1.0.1",
     "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0",
-    "parcel-reporter-static-files-copy": "^1.4.0"
+    "parcel": "^2.7.0"
   },
   "dependencies": {
-    "handlebars": "^4.7.7",
-    "reset-css": "^5.0.1"
+    "handlebars": "^4.7.7"
   }
 }
